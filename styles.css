@@ -1,0 +1,102 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    align-items: center;
+    
+    background-image: url(./assets/garba-bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    
+    display: flex;
+    
+    background-color: rgb(25, 47, 70);
+
+    font-family: -apple-system, 
+      BlinkMacSystemFont, 
+      "Segoe UI", 
+      Roboto, 
+      Oxygen-Sans, 
+      Ubuntu, 
+      Cantarell, 
+      "Helvetica Neue", 
+      sans-serif;
+  }
+
+  .left-logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .right-logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .logo {
+    height: 116px;
+    width: 116px;
+  }
+  
+  .container {
+    color: rgba(255, 255, 255, 0.828);
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.88);
+    border-radius: 2em;
+    padding: 2em;
+    
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px);  */
+  }
+  
+  h1 {
+    
+    font-weight: normal;
+    letter-spacing: .125rem;
+    /* text-transform: uppercase; */
+  }
+  a:link {
+    color: rgb(60, 179, 157);
+  }
+  
+  li {
+    
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    li span {
+      font-size: 3.375rem;
+    }
+  }

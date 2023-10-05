@@ -4,7 +4,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-  let dead = "Oct 5 2023 21:11:00",
+  let dead = "Oct 21 2023 19:00:00",
     countDown = new Date(dead).getTime(),
     x = setInterval(function() {
 

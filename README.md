@@ -2,9 +2,9 @@
 
 ### TODO
 
-- [ ] CACS Logo
-- [ ] Countdown end text
+- [x] CACS Logo
+- [x] Countdown end text
 - [ ] Sponsor Logo
-    - [ x ] GST
-    - [ ] STH
+    - [x] GST
+    - [x] STH
     - [ ] surprise?

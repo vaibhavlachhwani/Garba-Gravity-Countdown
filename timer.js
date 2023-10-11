@@ -4,7 +4,7 @@
     hour = minute * 60,
     day = hour * 24;
 
-  let dead = "Oct 21 2023 19:00:00",
+  let dead = "Oct 22 2023 20:00:00",
     countDown = new Date(dead).getTime(),
     x = setInterval(function() {
 
@@ -22,7 +22,7 @@
           countdown = document.getElementById("countdown"),
           content = document.getElementById("content");
 
-        headline.innerText = "🎉Garba Gravity🎉";
+        headline.innerText = "🎉Garba Gravity is now live!🎉";
         countdown.style.display = "none";
         content.style.display = "block";
 

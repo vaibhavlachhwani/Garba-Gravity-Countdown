@@ -26,12 +26,14 @@
   }
 
   .left-logo {
+    padding: 21px;
     position: absolute;
     top: 0;
     left: 0;
   }
 
   .right-logo {
+    padding: 21px;
     position: absolute;
     top: 0;
     right: 0;
@@ -59,6 +61,7 @@
   }
   
   .container {
+    /* width: 30em; */
     color: rgba(255, 255, 255, 0.828);
     margin: 0 auto;
     text-align: center;
@@ -70,9 +73,28 @@
     /* -webkit-filter: blur(8px);  */
   }
 
+  .container-no-pad {
+    color: rgba(255, 255, 255, 0.828);
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.40);
+    border-radius: 1em;
+    padding: 1em;
+    
+    /* filter: blur(8px); */
+    /* -webkit-filter: blur(8px);  */
+  }
+
+  .bottom-left {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 12px 24px!important; 
+  }
+
   .sponsor-logo {
-    width: 120px;
-    height: 120px;
+    width: 160px;
+    height: 160px;
   }
   
   h1 {
@@ -82,8 +104,18 @@
     color: rgb(0, 0, 0);
     /* text-transform: uppercase; */
   }
-  a:link {
-    color: rgb(60, 179, 157);
+
+ h3 {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    color: rgb(255, 255, 255);
+    /* text-transform: uppercase; */
+  }
+
+  a {
+    font-weight: normal;
+    letter-spacing: .125rem;
+    color: rgb(255, 255, 255);
   }
   
   li {

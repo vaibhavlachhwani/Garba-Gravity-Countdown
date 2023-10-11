@@ -4,5 +4,7 @@
 
 - [ ] CACS Logo
 - [ ] Countdown end text
-- [ ] Host and release
-- [ ] Credits
+- [ ] Sponsor Logo
+    - [ x ] GST
+    - [ ] STH
+    - [ ] surprise?

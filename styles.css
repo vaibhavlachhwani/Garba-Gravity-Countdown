@@ -25,6 +25,11 @@
     background-color: rgb(25, 47, 70);
   }
 
+  .scroll {
+    width: 110px;
+    height: 110px;
+  }
+
   .left-logo {
     padding: 21px;
     position: absolute;
@@ -139,11 +144,26 @@
     }
     
     li {
-      font-size: 1.125rem;
+      font-size: 0.77rem;
       padding: .75rem;
     }
     
     li span {
-      font-size: 3.375rem;
+      font-size: 2.3rem;
+    }
+    
+    .logo {
+      height: 90px;
+      width: 90px;
+    }
+
+    .sponsor-logo {
+      height: 80px;
+      width: 80px;
+    }
+
+    .scroll {
+      width: 80px;
+      height: 80px;
     }
   }
